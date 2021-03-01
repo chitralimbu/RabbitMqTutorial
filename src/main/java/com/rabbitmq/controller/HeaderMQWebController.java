@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/header")
-public class HeaerMQWebController {
+public class HeaderMQWebController {
 
     private final AmqpTemplate amqpTemplate;
 
-    public HeaerMQWebController(AmqpTemplate amqpTemplate) {
+    public HeaderMQWebController(AmqpTemplate amqpTemplate) {
         this.amqpTemplate = amqpTemplate;
     }
 
